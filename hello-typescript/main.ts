@@ -19,3 +19,21 @@ numeros.map(function(valor){
 });
 
 numeros.map(valor => valor * 2);
+
+
+class Matematica {
+   soma(x, y){
+       return x + y;
+   }     
+};
+
+
+/*var Matematica = (function (){
+    function Matermatica(){        
+    }
+    Matematica.prototype.soma = function(x , y){
+        return x + y;
+    };
+    return Matermatica;
+})
+*/
